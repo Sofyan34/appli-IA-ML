@@ -11,8 +11,8 @@ pip install streamlit pandas numpy matplotlib seaborn scikit-learn
 
 pip freeze > requirements.txt
 
-# 1. Dev-IA-vin : Développement d'une IA pouvant prédire la catégorie du vin en fonction de ses caractéristiques
+# 1. app_vin : Développement d'une IA pouvant prédire la catégorie du vin en fonction de ses caractéristiques
 streamlit run app_vin/app_vin.py
 
-# 2. Dev-appli : Développement d'une IA généraliste pouvant lire des CSV et utiliser leur contenu
+# 2. app_generique : Développement d'une IA généraliste pouvant lire des CSV et utiliser leur contenu
 streamlit run app_generique/app.py
