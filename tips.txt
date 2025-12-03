@@ -1,0 +1,6 @@
+afficher les dependances = pip freeze
+créer un fichier de dependance = pip freeze > requirements.txt
+créer un environnement virtuel = python -m venv <nom_de_l_environnement>
+installer des depandances= pip install -r requirements.txt
+activer un environnement = <nom_de_l_environnement>\Scripts\activate (windows) source <nom_de_l_environnement>/bin/activate (unix)
+lancer streamlit = streamlit run app.py
