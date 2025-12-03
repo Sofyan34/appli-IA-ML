@@ -1,7 +1,7 @@
 # Préparation de l'environnement virtuel :
 python -m venv .venv
 
-".\.venv\Scripts\Activate"
+.\.venv\Scripts\Activate
 
 # Une fois dans le .venv, installer les prérequis : 
 python.exe -m pip install --upgrade pip
