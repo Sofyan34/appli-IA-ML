@@ -26,7 +26,7 @@ from utils_ml import render_sidebar_nav
 # ------------------------------------------------------------------
 # CONFIG PAGE
 # ------------------------------------------------------------------
-st.set_page_config(page_title="Évaluation", layout="wide")
+st.set_page_config(page_title="Évaluation", page_icon=":test_tube:", layout="wide")
 render_sidebar_nav()
 st.title("Évaluation finale des meilleurs modèles")
 st.caption("On évalue uniquement les meilleures configs trouvées dans l’onglet Modélisation ✅")

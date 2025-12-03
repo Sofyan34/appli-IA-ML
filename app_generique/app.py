@@ -4,7 +4,7 @@ from pathlib import Path
 
 from utils_ml import render_sidebar_nav
 
-st.set_page_config(page_title="Projet ML - Classification de vins", layout="wide")
+st.set_page_config(page_title="Projet ML - Classification de vins", page_icon=":microscope:", layout="wide")
 render_sidebar_nav()
 
 st.caption("Accueil - Import du dataset et définition de la colonne cible")

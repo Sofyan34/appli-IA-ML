@@ -4,6 +4,11 @@ from sklearn.model_selection import train_test_split
 from utils_ml import render_sidebar_nav
 import numpy as np
 
+st.set_page_config(page_title="Nettoyage", page_icon=":broom:", layout="wide")
+render_sidebar_nav()
+
+st.title("Nettoyage des données")
+
 # Fonctions ------------------------------------------------------------------
 # Fonction pour afficher le DataFrame dans une box
 def afficher_dataframe():
@@ -75,10 +80,6 @@ def nan_cat_mode(list_nan) :
 
 # La page commence ici ----------------------------
 
-st.set_page_config(page_title="Modélisation", layout="wide")
-render_sidebar_nav()
-
-st.title("Nettoyage et préparation des données")
 
 # Session state ---------------
 if "df" not in st.session_state:

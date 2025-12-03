@@ -47,7 +47,7 @@ def clean_dict(d):
 # -----------------------------------------------------------------------------
 # CONFIG PAGE + NAV
 # -----------------------------------------------------------------------------
-st.set_page_config(page_title="Modélisation", layout="wide")
+st.set_page_config(page_title="Modélisation", page_icon=":brain:", layout="wide")
 render_sidebar_nav()
 st.title("Modélisation - Recherche d'hyperparamètres & comparaison")
 

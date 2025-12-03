@@ -12,7 +12,7 @@ from sklearn.pipeline import Pipeline
 # --- Configuration Streamlit ---
 st.set_page_config(
     page_title="Projet ML",
-    page_icon=":shark:",
+    page_icon=":wine_glass:",
     layout="wide",
     initial_sidebar_state="expanded",
 )

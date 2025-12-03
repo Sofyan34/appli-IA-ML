@@ -11,7 +11,7 @@ from pandas.api.types import CategoricalDtype
 
 from utils_ml import render_sidebar_nav, is_categorical_target, target_for_hue
 
-st.set_page_config(page_title="Visualisation", layout="wide")
+st.set_page_config(page_title="Visualisation", page_icon=":books:", layout="wide")
 render_sidebar_nav()
 
 st.title("Visualisation des données")
